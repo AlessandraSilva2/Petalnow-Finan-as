@@ -1,0 +1,154 @@
+body { 
+  font-family: "Poppins", sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background: #f8f8f8;
+}
+
+header { 
+  background: #1f3c88; 
+  color: #fff; 
+  padding: 15px 10px; 
+  text-align: center; 
+  font-size: 20px; 
+  font-weight: 600;
+}
+
+main { 
+  padding: 15px; 
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button { 
+  width: 100%; 
+  background: #3b6ed5; 
+  color: #fff; 
+  border: none; 
+  padding: 14px; 
+  border-radius: 10px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button:hover { 
+  background: #2f57ad;
+}
+
+.card { 
+  background: #fff; 
+  padding: 15px; 
+  border-radius: 12px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.card h3, .card h4 { 
+  margin-top: 0; 
+  font-size: 18px; 
+  color: #333;
+  word-break: break-word;
+}
+
+.linha { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 6px 0; 
+  font-size: 15px;
+}
+
+.rodape { 
+  text-align: center; 
+  margin-top: 20px; 
+  font-size: 14px; 
+  color: #555;
+}
+
+.btn-excluir { 
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn-excluir:hover { 
+  background: #b02a37;
+}
+
+.btn-fat { 
+  background: #3b6ed5;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.resumo-linha {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+  font-size: 15px;
+  padding: 5px 10px;
+  background: #f1f1f1; 
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.resumo-barra {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+.resumo-linha span {
+  position: relative;
+  z-index: 1;
+}
+
+.resumo-faturamento { border-left: 5px solid #3b6ed5; }
+.resumo-custos { border-left: 5px solid #dc3545; }
+.resumo-lucro { border-left: 5px solid #28a745; }
+
+@media (max-width: 400px) {
+  main { padding: 10px; }
+  button { padding: 12px; font-size: 15px; }
+  .card h3, .card h4 { font-size: 16px; }
+  .linha { font-size: 14px; }
+}
+
+#alerta-gastos {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #dc3545;
+}
+
+#alerta-gastos {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #dc3545;
+  display: none; /* inicia invisível */
+}

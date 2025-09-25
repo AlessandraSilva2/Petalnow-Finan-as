@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finanças Offline</title>
+  <script src="libs/jspdf.umd.js"></script> <!-- carregamento offline -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>FINANÇAS OFFLINE</h1>
+  </header>
+
+  <main id="conteudo">
+    <button onclick="registrarServico()">REGISTRAR SERVIÇO</button>
+    <button onclick="adicionarImprevisto()">Adicionar Imprevisto</button>
+    <button onclick="definirMeta()">Definir Meta Mensal</button>
+
+    <div class="linha resumo-linha resumo-faturamento">
+      <div class="resumo-barra" id="barra-fat"></div>
+      <span>Faturamento do dia</span>
+      <span id="fat-dia">R$ 0</span>
+    </div>
+
+    <div class="linha resumo-linha resumo-custos">
+      <div class="resumo-barra" id="barra-custos"></div>
+      <span>Custos do dia</span>
+      <span id="custo-dia">R$ 0</span>
+    </div>
+
+    <div class="linha resumo-linha resumo-lucro">
+      <div class="resumo-barra" id="barra-lucro"></div>
+      <span>Lucro do dia</span>
+      <span id="lucro-dia">R$ 0</span>
+    </div>
+
+    <div id="alerta-gastos"></div>
+
+    <div class="card" id="servicos">
+      <h3>Serviços</h3>
+      <div id="lista-servicos"></div>
+    </div>
+
+    <div class="rodape">
+      <button onclick="baixarPDF()">📥 Baixar PDF</button>
+      <p>Sua ajuda mantém o site!  
+         Siga-nos no <a href="https://www.instagram.com/sanhora_/" target="_blank">Instagram</a>  
+         e clique nos anúncios!</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
