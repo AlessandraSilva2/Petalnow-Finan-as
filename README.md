@@ -2,7 +2,7 @@ PetalNow - Finanças Offline
 
 Sobre o Projeto  
 O PetalNow é um site educativo de finanças pessoais e controle de serviços.  
-Ele ajuda estudantes e profissionais a gerenciar receitas, custos e metas mensais de forma prática e offline.  
+Ele ajuda estudantes e profissionais a gerenciar receitas, custos e metas mensais de forma prática.
 
 O site simula uma gestão financeira real, usando valores que você realmente vive como metas financeiras.  
 
@@ -39,11 +39,10 @@ Como Usar
 
 7. Baixar PDF → Gere um relatório completo do dia com faturamento, custos, lucro e imprevistos.  
 
-O site calcula automaticamente o **lucro do dia** e mostra quanto falta para atingir sua meta mensal.  
+O site calcula automaticamente o lucro do dia e mostra quanto falta para atingir sua meta mensal.  
 
 
-Diferenciais  
-Offline: Não precisa de internet após o primeiro carregamento.  
+Diferenciais   
 Funciona em celulares: Interface responsiva, acessível em qualquer dispositivo.  
 Valores Reais: Você define quanto realmente precisa para alcançar suas metas financeiras.  
 Simples e Didático: Interface intuitiva pensada para estudantes do Fundamental 2.  
