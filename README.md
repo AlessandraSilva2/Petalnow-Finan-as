@@ -94,6 +94,21 @@ Tela de Serviços
 Tela Final e Relatório PDF  
 <img width="600" alt="Tela Final e Relatório PDF" src="https://github.com/user-attachments/assets/1d5d2725-3649-4749-ac8d-a9f6f39c8925" />  
 
+Como o cálculo da meta funciona
+
+O sistema calcula quantos serviços do mesmo tipo você precisa fazer para atingir sua meta diária. Primeiro, ele olha para o lucro do último serviço realizado. Por exemplo, se o último serviço foi da Fátima e deu R$ 100 de lucro, esse é o valor que ele vai usar no cálculo.
+
+Depois, ele descobre quanto ainda falta para chegar na meta. Se a meta do dia é R$ 2.000 e você já acumulou R$ 70 de lucro, então falta R$ 1.930.
+
+Então, ele divide o valor que falta pelo lucro do último serviço:
+
+1.930 ÷ 100 = 19,3
+
+
+Como você não pode fazer um serviço “quebrado”, o sistema usa Math.ceil(), que sempre arredonda o número para cima. Assim, mesmo que 19 serviços dariam R$ 1.900, ainda faltaria para completar a meta, então ele indica 20 serviços.
+
+Resultado final: o sistema mostra “Faltam 20 serviços iguais ao último”, garantindo que você alcance ou ultrapasse a meta diária.
+
 Como Rodar Localmente  
 1. Clone este repositório:  
    ```bash
