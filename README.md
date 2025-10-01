@@ -112,3 +112,9 @@ Como Rodar Localmente
 1. Clone este repositório:  
    ```bash
    git clone https://github.com/AlessandraSilva2/Petalnow-Finan-as.git
+
+Licença
+
+Este projeto está licenciado sob os termos da Licença MIT.  
+Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
